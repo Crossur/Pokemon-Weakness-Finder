@@ -4,25 +4,26 @@ import { ClipLoader } from 'react-spinners';
 import { FaRegStar, FaStar } from "react-icons/fa";
 
 const imageObj = {
-  bug: ('../assets/images/bugIcon.png'),
-  dark: ('../assets/images/darkIcon.png'),
-  dragon: ('../assets/images/dragonIcon.png'),
-  electric: ('../assets/images/electricIcon.png'),
-  fairy: ('../assets/images/fairyIcon.png'),
-  fighting: ('../assets/images/fightingIcon.png'),
-  fire: ('../assets/images/fireIcon.png'),
-  flying: ('../assets/images/flyingIcon.png'),
-  ghost: ('../assets/images/ghostIcon.png'),
-  grass: ('../assets/images/grassIcon.png'),
-  ground: ('../assets/images/groundIcon.png'),
-  ice: ('../assets/images/iceIcon.png'),
-  normal: ('../assets/images/normalIcon.png'),
-  poison: ('../assets/images/poisonIcon.png'),
-  psychic: ('../assets/images/psychicIcon.png'),
-  rock: ('../assets/images/rockIcon.png'),
-  steel: ('../assets/images/steelIcon.png'),
-  water: ('../assets/images/waterIcon.png'),
+  bug: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/bugIcon.png'),
+  dark: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/darkIcon.png'),
+  dragon: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/dragonIcon.png'),
+  electric: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/electricIcon.png'),
+  fairy: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/fairyIcon.png'),
+  fighting: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/fightingIcon.png'),
+  fire: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/fireIcon.png'),
+  flying: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/flyingIcon.png'),
+  ghost: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/ghostIcon.png'),
+  grass: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/grassIcon.png'),
+  ground: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/groundIcon.png'),
+  ice: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/iceIcon.png'),
+  normal: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/normalIcon.png'),
+  poison: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/poisonIcon.png'),
+  psychic: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/psychicIcon.png'),
+  rock: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/rockIcon.png'),
+  steel: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/steelIcon.png'),
+  water: ('https://crossur.github.io/Pokemon-Weakness-Finder/assets/images/waterIcon.png'),
 };
+
 
 const fetchTypes = async (pokemon) => {
   const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`).then(data => data.json());
