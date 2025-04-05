@@ -8,5 +8,5 @@ body {
 
 @font-face{
   font-family: 'pokemon';
-  src :url('/docs/assets/fonts/pokemon.ttf');
+  src :url('../assets/fonts/pokemon.ttf');
 }
